@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F270BAE26F7012B00384E60 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F270BAD26F7012B00384E60 /* AnswerCell.swift */; };
+		3F2F184926F36F5800CED51F /* QuestionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F184826F36F5800CED51F /* QuestionListViewModel.swift */; };
+		3F2F184B26F3704D00CED51F /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F184A26F3704D00CED51F /* ApiCaller.swift */; };
+		3F2F184D26F370B000CED51F /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2F184C26F370B000CED51F /* QuestionCell.swift */; };
 		3FA9237E26F1DF3800D1AC56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9237D26F1DF3800D1AC56 /* AppDelegate.swift */; };
-		3FA9238026F1DF3800D1AC56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9237F26F1DF3800D1AC56 /* ViewController.swift */; };
+		3FA9238026F1DF3800D1AC56 /* QuestionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9237F26F1DF3800D1AC56 /* QuestionListViewController.swift */; };
 		3FA9238326F1DF3800D1AC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9238126F1DF3800D1AC56 /* Main.storyboard */; };
 		3FA9238526F1DF3D00D1AC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9238426F1DF3D00D1AC56 /* Assets.xcassets */; };
 		3FA9238826F1DF3D00D1AC56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9238626F1DF3D00D1AC56 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FA9237A26F1DF3800D1AC56 /* SingleViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F270BAD26F7012B00384E60 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		3F2F184826F36F5800CED51F /* QuestionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewModel.swift; sourceTree = "<group>"; };
+		3F2F184A26F3704D00CED51F /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		3F2F184C26F370B000CED51F /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		3FA9237A26F1DF3800D1AC56 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA9237D26F1DF3800D1AC56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FA9237F26F1DF3800D1AC56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA9237F26F1DF3800D1AC56 /* QuestionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewController.swift; sourceTree = "<group>"; };
 		3FA9238226F1DF3800D1AC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA9238426F1DF3D00D1AC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA9238726F1DF3D00D1AC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,7 +46,7 @@
 		3FA9237126F1DF3800D1AC56 = {
 			isa = PBXGroup;
 			children = (
-				3FA9237C26F1DF3800D1AC56 /* SingleViewApp */,
+				3FA9237C26F1DF3800D1AC56 /* TableView */,
 				3FA9237B26F1DF3800D1AC56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +54,34 @@
 		3FA9237B26F1DF3800D1AC56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FA9237A26F1DF3800D1AC56 /* SingleViewApp.app */,
+				3FA9237A26F1DF3800D1AC56 /* TableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FA9237C26F1DF3800D1AC56 /* SingleViewApp */ = {
+		3FA9237C26F1DF3800D1AC56 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				3F2F184A26F3704D00CED51F /* ApiCaller.swift */,
 				3FA9237D26F1DF3800D1AC56 /* AppDelegate.swift */,
-				3FA9237F26F1DF3800D1AC56 /* ViewController.swift */,
+				3F2F184826F36F5800CED51F /* QuestionListViewModel.swift */,
+				3FA9237F26F1DF3800D1AC56 /* QuestionListViewController.swift */,
 				3FA9238126F1DF3800D1AC56 /* Main.storyboard */,
 				3FA9238426F1DF3D00D1AC56 /* Assets.xcassets */,
 				3FA9238626F1DF3D00D1AC56 /* LaunchScreen.storyboard */,
 				3FA9238926F1DF3E00D1AC56 /* Info.plist */,
+				3F2F184C26F370B000CED51F /* QuestionCell.swift */,
+				3F270BAD26F7012B00384E60 /* AnswerCell.swift */,
 			);
-			path = SingleViewApp;
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FA9237926F1DF3800D1AC56 /* SingleViewApp */ = {
+		3FA9237926F1DF3800D1AC56 /* TableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA9238C26F1DF3E00D1AC56 /* Build configuration list for PBXNativeTarget "SingleViewApp" */;
+			buildConfigurationList = 3FA9238C26F1DF3E00D1AC56 /* Build configuration list for PBXNativeTarget "TableView" */;
 			buildPhases = (
 				3FA9237626F1DF3800D1AC56 /* Sources */,
 				3FA9237726F1DF3800D1AC56 /* Frameworks */,
@@ -79,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = SingleViewApp;
+			name = TableView;
 			productName = SingleViewApp;
-			productReference = 3FA9237A26F1DF3800D1AC56 /* SingleViewApp.app */;
+			productReference = 3FA9237A26F1DF3800D1AC56 /* TableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FA9237526F1DF3800D1AC56 /* Build configuration list for PBXProject "SingleViewApp" */;
+			buildConfigurationList = 3FA9237526F1DF3800D1AC56 /* Build configuration list for PBXProject "TableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FA9237926F1DF3800D1AC56 /* SingleViewApp */,
+				3FA9237926F1DF3800D1AC56 /* TableView */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA9238026F1DF3800D1AC56 /* ViewController.swift in Sources */,
+				3FA9238026F1DF3800D1AC56 /* QuestionListViewController.swift in Sources */,
 				3FA9237E26F1DF3800D1AC56 /* AppDelegate.swift in Sources */,
+				3F2F184926F36F5800CED51F /* QuestionListViewModel.swift in Sources */,
+				3F270BAE26F7012B00384E60 /* AnswerCell.swift in Sources */,
+				3F2F184B26F3704D00CED51F /* ApiCaller.swift in Sources */,
+				3F2F184D26F370B000CED51F /* QuestionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +298,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SingleViewApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = meroapp.SingleViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +317,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SingleViewApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = meroapp.SingleViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FA9237526F1DF3800D1AC56 /* Build configuration list for PBXProject "SingleViewApp" */ = {
+		3FA9237526F1DF3800D1AC56 /* Build configuration list for PBXProject "TableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA9238A26F1DF3E00D1AC56 /* Debug */,
@@ -324,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FA9238C26F1DF3E00D1AC56 /* Build configuration list for PBXNativeTarget "SingleViewApp" */ = {
+		3FA9238C26F1DF3E00D1AC56 /* Build configuration list for PBXNativeTarget "TableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FA9238D26F1DF3E00D1AC56 /* Debug */,
